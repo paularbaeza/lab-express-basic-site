@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EBBFB6;
+    height: 100vh;
 }
 
 #nav-bar {
@@ -111,4 +113,21 @@ h1 {
 
 #works-content img {
     width:400px;
+}
+
+#gallery-images {
+    display: flex;
+    flex-direction: column;
+}
+.img-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+#gallery-images img{
+    height:300px ;
+    padding: 30px;
+   
 }
