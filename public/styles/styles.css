@@ -4,7 +4,7 @@ body {
 
 #nav-bar {
 
-    background-color: lightgray;
+    background-color: #BADEDE;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -20,4 +20,27 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: black;
+}
+
+#nav-bar-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+#home-content{
+    background-color: indianred;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#home-content p{
+    width:400px;
+    background-color: #BADEDE;
+    border-radius: 10px;
+    padding:20px;
 }

@@ -23,10 +23,14 @@ app.get("/works", (req, res) => {
     res.sendFile(__dirname + "/views/works.html")
 })
 
+app.get("/gallery", (req,res) => {
+    res.sendFile(__dirname + "/views/gallery.html")
+})
 
 app.get("*", (req, res) => {
     res.send("Andeva jipicolgao??")
 })
+
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
