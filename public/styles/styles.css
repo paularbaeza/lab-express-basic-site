@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #nav-bar {
@@ -9,7 +10,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family:fantasy;
 
+}
+
+h1 {
+    font-family:fantasy;
 }
 
 #logo {
@@ -18,7 +24,7 @@ body {
 
 .nav-bar-link{
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 100;
     color: black;
 }
 
@@ -30,7 +36,33 @@ body {
 }
 
 #home-content{
-    background-color: indianred;
+    background-color: #EBBFB6;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#about-content{
+    background-color: #EBBFB6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#gallery-content{
+    background-color: #EBBFB6;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#works-content{
+    background-color: #EBBFB6;
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -46,6 +78,37 @@ body {
 }
 
 #about-content img{
-    height: 400px;
+    height: 250px;
+    width:250px;
+    margin:30px
+}
 
+#about-images{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+#about-lists{
+    display:flex;
+    
+}
+
+.likes{
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-content: space-between;
+    justify-content: center;
+    margin:30px;
+}
+
+.likes li{
+    list-style:square;
+    margin-left:-40px;
+    margin-bottom:10px;
+}
+
+#works-content img {
+    width:400px;
 }
