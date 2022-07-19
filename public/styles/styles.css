@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+#nav-bar {
+
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo {
+    height: 50px;
+}
+
+.nav-bar-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
